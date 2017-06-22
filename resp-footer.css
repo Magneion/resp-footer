@@ -1,0 +1,15 @@
+footer {
+	display: flex;
+	justify-content: space-around;
+	background-color: plum;
+}
+
+footer div:hover {
+	background-color: darkorchid;
+}
+
+@media (max-width: 640px) {
+	nav {
+	flex-direction: column;
+	}
+}
